@@ -19,9 +19,8 @@ public class MgrGame : MgrBase
 
     void Awake()
     {
-
-        //gameStatus = GAMESTATUS.START;
-        gameStatus = GAMESTATUS.PLAY;
+        gameStatus = GAMESTATUS.START;
+        //gameStatus = GAMESTATUS.PLAY;
     }
 	
 	// Update is called once per frame
